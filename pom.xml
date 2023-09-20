@@ -8,7 +8,7 @@
         <version>3.1.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>sflecha.handshakehelloclientinterceptor</groupId>
+    <groupId>sflecha</groupId>
     <artifactId>handshakehelloclientinterceptor</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>handshake-hello-client-interceptor</name>
