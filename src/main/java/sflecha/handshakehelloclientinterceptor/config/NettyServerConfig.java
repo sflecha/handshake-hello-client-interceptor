@@ -1,7 +1,5 @@
 package sflecha.handshakehelloclientinterceptor.config;
 
-import sflecha.handshakehelloclientinterceptor.channelhandler.TLSHandshakeReaderHandler;
-import sflecha.handshakehelloclientinterceptor.channelhandler.TestChannel;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
@@ -19,6 +17,8 @@ import org.springframework.boot.web.server.WebServerFactoryCustomizer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import reactor.netty.http.server.HttpServer;
+import sflecha.handshakehelloclientinterceptor.channelhandler.TLSHandshakeReaderHandler;
+import sflecha.handshakehelloclientinterceptor.channelhandler.TestChannel;
 
 import javax.net.ssl.SSLException;
 
