@@ -1,0 +1,7 @@
+server:
+  ssl:
+    enabled: true
+    certificate-private-key: privkey.pem
+    certificate: fullchain.pem
+
+
